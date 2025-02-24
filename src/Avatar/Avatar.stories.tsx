@@ -15,6 +15,12 @@ const meta = {
       options: ['tiny', 'small', 'medium', 'large'],
     },
   },
+  tags: ['autodocs'],
+  parameters: {
+    docs: {
+      subtitle: 'Displays an image that represents a user or organization',
+    },
+  },
 } satisfies Meta<typeof Avatar>;
 
 export default meta;
@@ -28,6 +34,9 @@ export const Standard: Story = {
   },
 };
 
+/**
+ * 4 sizes are supported.
+ */
 export const Sizes: Story = {
   args: {
     username: 'Tom Coleman',
@@ -43,6 +52,9 @@ export const Sizes: Story = {
   ),
 };
 
+/**
+ * Shows the user's initials as a fallback when no image is provided.
+ */
 export const Initials: Story = {
   render: () => (
     <>
@@ -54,6 +66,9 @@ export const Initials: Story = {
   ),
 };
 
+/**
+ * Shows a loading indicator.
+ */
 export const Loading: Story = {
   args: {
     loading: true,
@@ -68,6 +83,9 @@ export const Loading: Story = {
   ),
 };
 
+/**
+ * Shows the user's avatar when provided with a `src` prop or in various states and sizes.
+ */
 export const Large: Story = {
   render: () => (
     <>
@@ -82,10 +100,8 @@ export const Large: Story = {
   ),
 };
 
-/*
- * New story using Controls
- * Read more about Storybook templates at:
- * https://storybook.js.org/docs/writing-stories
+/**
+ * Avatar component using Controls
  */
 export const Controls: Story = {
   args: {
