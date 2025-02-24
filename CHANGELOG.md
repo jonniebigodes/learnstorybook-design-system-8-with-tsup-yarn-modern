@@ -1,3 +1,15 @@
+# v0.1.2 (Mon Feb 24 2025)
+
+#### ⚠️ Pushed to `main`
+
+- Adds CI automation for Auto ([@jonniebigodes](https://github.com/jonniebigodes))
+
+#### Authors: 1
+
+- [@jonniebigodes](https://github.com/jonniebigodes)
+
+---
+
 # v0.1.1 (Mon Feb 24 2025)
 
 #### ⚠️ Pushed to `main`
