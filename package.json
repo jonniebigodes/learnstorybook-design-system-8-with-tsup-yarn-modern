@@ -1,7 +1,7 @@
 {
   "name": "@jonniebigodes/learnstorybook-design-system-ts-yarn-modern",
   "description": "Storybook design systems tutorial changes for ts and yarn",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
   "repository": "https://github.com/jonniebigodes/learnstorybook-design-system-8-with-tsup-yarn-modern",
