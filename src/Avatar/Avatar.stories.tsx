@@ -5,6 +5,10 @@ import { Avatar } from './Avatar';
 const meta = {
   title: 'Design System/Avatar',
   component: Avatar,
+  /*
+   * More on Storybook argTypes at:
+   * https://storybook.js.org/docs/react/api/argtypes
+   */
   argTypes: {
     size: {
       control: 'select',
@@ -81,7 +85,7 @@ export const Large: Story = {
 /*
  * New story using Controls
  * Read more about Storybook templates at:
- * https://storybook.js.org/docs/react/writing-stories/introduction#using-args
+ * https://storybook.js.org/docs/writing-stories
  */
 export const Controls: Story = {
   args: {
