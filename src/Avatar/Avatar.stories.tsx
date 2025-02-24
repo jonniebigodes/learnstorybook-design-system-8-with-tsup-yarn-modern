@@ -15,12 +15,13 @@ const meta = {
       options: ['tiny', 'small', 'medium', 'large'],
     },
   },
-  tags: ['autodocs'],
+  // The documentation for the component was moved to the MDX file.
+  /* tags: ['autodocs'],
   parameters: {
     docs: {
       subtitle: 'Displays an image that represents a user or organization',
     },
-  },
+  }, */
 } satisfies Meta<typeof Avatar>;
 
 export default meta;
