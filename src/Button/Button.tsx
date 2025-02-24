@@ -74,7 +74,8 @@ const ButtonLink = styled.a``;
 const StyledButton = styled.button<
   StyledButtonProps & { children: React.ReactElement }
 >`
-  border: 0;
+  border: 10px solid red;
+  font-size: 20px;
   border-radius: 3em;
   cursor: pointer;
   display: inline-block;
