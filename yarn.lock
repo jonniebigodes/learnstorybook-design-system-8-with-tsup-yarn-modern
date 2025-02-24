@@ -1566,6 +1566,59 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jonniebigodes/learnstorybook-design-system-ts-yarn-modern@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@jonniebigodes/learnstorybook-design-system-ts-yarn-modern@workspace:."
+  dependencies:
+    "@chromatic-com/storybook": "npm:^3.2.4"
+    "@emotion/babel-plugin": "npm:^11.13.5"
+    "@emotion/react": "npm:^11.13.3"
+    "@emotion/styled": "npm:^11.13.0"
+    "@storybook/addon-a11y": "npm:^8.5.8"
+    "@storybook/addon-coverage": "npm:^1.0.5"
+    "@storybook/addon-essentials": "npm:^8.5.8"
+    "@storybook/addon-interactions": "npm:^8.5.8"
+    "@storybook/addon-onboarding": "npm:^8.5.8"
+    "@storybook/blocks": "npm:^8.5.8"
+    "@storybook/react": "npm:^8.5.8"
+    "@storybook/react-vite": "npm:^8.5.8"
+    "@storybook/test": "npm:^8.5.8"
+    "@storybook/test-runner": "npm:^0.21.3"
+    "@types/node": "npm:18.15.3"
+    "@types/react": "npm:^18.3.3"
+    "@types/react-dom": "npm:^18.3.0"
+    "@vitejs/plugin-react": "npm:^4.3.1"
+    auto: "npm:^11.3.0"
+    chromatic: "npm:^11.25.2"
+    concurrently: "npm:8.0.1"
+    eslint: "npm:8.57.0"
+    eslint-plugin-react: "npm:^7.34.1"
+    eslint-plugin-react-hooks: "npm:^5.1.0-rc.0"
+    eslint-plugin-react-refresh: "npm:^0.4.9"
+    eslint-plugin-storybook: "npm:^0.11.2"
+    polished: "npm:^4.2.2"
+    prettier: "npm:^3.5.1"
+    react: "npm:^18.2.0"
+    react-dom: "npm:^18.2.0"
+    rimraf: "npm:^3.0.2"
+    storybook: "npm:^8.5.8"
+    tsup: "npm:7.2.0"
+    typescript: "npm:^5.5.3"
+    typescript-eslint: "npm:^8.0.1"
+    vite: "npm:^5.4.1"
+  peerDependencies:
+    "@emotion/react": ^11.13.3
+    "@emotion/styled": ^11.13.0
+    react: ">=17"
+    react-dom: ">=17"
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
 "@joshwooding/vite-plugin-react-docgen-typescript@npm:0.5.0":
   version: 0.5.0
   resolution: "@joshwooding/vite-plugin-react-docgen-typescript@npm:0.5.0"
@@ -7446,59 +7499,6 @@ __metadata:
   checksum: 10c0/cd3a0b8878e7d6d3799e54340efe3591ca787d9f95f109f28129bdd2915e37807bf8918bb295ab86afb8c82196beec5a1adcaf29042ce3f2bd932b038fe3aa4b
   languageName: node
   linkType: hard
-
-"learnstorybook-design-system-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "learnstorybook-design-system-template@workspace:."
-  dependencies:
-    "@chromatic-com/storybook": "npm:^3.2.4"
-    "@emotion/babel-plugin": "npm:^11.13.5"
-    "@emotion/react": "npm:^11.13.3"
-    "@emotion/styled": "npm:^11.13.0"
-    "@storybook/addon-a11y": "npm:^8.5.8"
-    "@storybook/addon-coverage": "npm:^1.0.5"
-    "@storybook/addon-essentials": "npm:^8.5.8"
-    "@storybook/addon-interactions": "npm:^8.5.8"
-    "@storybook/addon-onboarding": "npm:^8.5.8"
-    "@storybook/blocks": "npm:^8.5.8"
-    "@storybook/react": "npm:^8.5.8"
-    "@storybook/react-vite": "npm:^8.5.8"
-    "@storybook/test": "npm:^8.5.8"
-    "@storybook/test-runner": "npm:^0.21.3"
-    "@types/node": "npm:18.15.3"
-    "@types/react": "npm:^18.3.3"
-    "@types/react-dom": "npm:^18.3.0"
-    "@vitejs/plugin-react": "npm:^4.3.1"
-    auto: "npm:^11.3.0"
-    chromatic: "npm:^11.25.2"
-    concurrently: "npm:8.0.1"
-    eslint: "npm:8.57.0"
-    eslint-plugin-react: "npm:^7.34.1"
-    eslint-plugin-react-hooks: "npm:^5.1.0-rc.0"
-    eslint-plugin-react-refresh: "npm:^0.4.9"
-    eslint-plugin-storybook: "npm:^0.11.2"
-    polished: "npm:^4.2.2"
-    prettier: "npm:^3.5.1"
-    react: "npm:^18.2.0"
-    react-dom: "npm:^18.2.0"
-    rimraf: "npm:^3.0.2"
-    storybook: "npm:^8.5.8"
-    tsup: "npm:7.2.0"
-    typescript: "npm:^5.5.3"
-    typescript-eslint: "npm:^8.0.1"
-    vite: "npm:^5.4.1"
-  peerDependencies:
-    "@emotion/react": ^11.13.3
-    "@emotion/styled": ^11.13.0
-    react: ">=17"
-    react-dom: ">=17"
-  peerDependenciesMeta:
-    react:
-      optional: true
-    react-dom:
-      optional: true
-  languageName: unknown
-  linkType: soft
 
 "leven@npm:^3.1.0":
   version: 3.1.0
