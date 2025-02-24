@@ -58,16 +58,24 @@ interface Avatar {
 
 export interface AvatarListProps
   extends React.HTMLAttributes<HTMLUListElement> {
-  /** Whether the avatars are in a loading state */
+  /**
+   * Are we loading avatar data from the network?
+   */
   loading?: boolean;
-  /** Array of user objects */
+  /**
+   * A (sub)-list of the users whose avatars we have data for. Note: only 3 will be displayed.
+   */
   users?: Avatar[];
   /** Total count of users (if not all users are passed) */
   userCount?: number | null;
-  /** Size of the avatar */
+  /**
+   * AvatarList comes in four sizes. In most cases, you’ll be fine with `medium`.
+   */
   size?: keyof typeof sizes;
 }
-
+/**
+ * A list of Avatars, ellipsized to at most 3. Supports passing only a subset of the total user count.
+ */
 export function AvatarList({
   loading = false,
   users = [],
