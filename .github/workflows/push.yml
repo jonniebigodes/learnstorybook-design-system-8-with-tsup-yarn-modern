@@ -1,0 +1,30 @@
+# Name of our action
+name: Release
+
+# The event that will trigger the action
+on:
+  push:
+    branches: [main]
+
+# what the action will do
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare repository
+        run: git fetch --unshallow --tags
+      - name: Configure Node environment
+        uses: actions/setup-node@v4
+        with:
+          #👇 Sets the version of Node.js to use
+          node-version: 22.12.0
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+      - name: Create Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          #👇 npm token, see https://storybook.js.org/tutorials/design-systems-for-developers/react/en/distribute/ to obtain it
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn release
